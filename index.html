@@ -9,13 +9,23 @@
   </head>
   <body>
    <!-- Navbar -->
-   <nav class="relative container mx-auto p-6">
+   <nav class="relative container mx-auto p-6 ease-in-out">
      <!-- Flex container -->
      <div class="flex items-center justify-between">
        <!-- Logo -->
-       <div class="pt-2">
-         <img src="" alt="">
+       <div class="pt-2 ease-in-out duration-300">
+         <img src="./img/logo.svg" alt="">
        </div>
+       <!-- Menu Items -->
+       <div class="hidden md:flex space-x-6 ease-in-out duration-300 font-bold">
+         <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+         <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+         <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+         <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+         <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+       </div>
+       <!-- Button -->
+       <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed baseline rounded-full hover:bg-brightRedLight">Get Started</a>
      </div>
    </nav>
   </body>
